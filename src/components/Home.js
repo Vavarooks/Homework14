@@ -2,7 +2,8 @@ import React from "react";
 function Home(){
     return(<div className="container">
 <h1>Home</h1>
-<p>My name is Vanessa Emerick and I am learning to program!</p>
+<br/>
+<h3>Welcome to my porfolio!</h3>
 <img src="./assets/ME.jpg" width="300" hight="300"></img>
     </div>      
     )

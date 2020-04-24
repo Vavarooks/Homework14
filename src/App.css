@@ -1,8 +1,8 @@
 .card {
-  width: 18rem;
+  width: 20rem;
   margin: 2%;
   padding:2%;
-
+  height: 100%;
 }
 
 .projectsmaster {
@@ -17,11 +17,15 @@ height: 95vh;
   position: fixed;
   background-color:linear-gradient(red, yellow, blue);
   bottom:0;
-  height:10%;
+  height:5%;
   align-items: center;
   text-align: center;
   width:100%;
 }
 .card-body{
   background-color: linear-gradient(red, yellow, blue);
+}
+
+.card-img-top{
+  width: 25opx;
 }
