@@ -5,12 +5,6 @@
   padding:2%;
   height: 100%;
 }
-i{
-  transition: width 2s, height 2s, transform 2s;
-}
-i:hover{
-  transform: rotate(360deg);
-}
 .card-img-top{
   width: 300px !important;
 }
@@ -61,4 +55,10 @@ height: 95vh;
 }
 .contacts a{
   color:white;
+}
+i{
+  transition: width 2s, height 2s, transform 2s;
+}
+i:hover{
+  transform: rotate(360deg);
 }

@@ -3,19 +3,19 @@ import "./projectslist";
 import projectlist from "./projectslist";
 import Projects from "./Projects";
 
-function Projectsmaster(){
+function Projectsmaster() {
     console.log(projectlist);
-    return(<div className="container">
-<h1>Projects</h1>
-<div className ="projectsmaster">
-{projectlist.map((project,key)=>{
-    return(
-        <Projects project={project} key={key} />
-    )
-})}
+    return (<div className="container">
+        <h1>Projects</h1>
+        <div className="projectsmaster">
+            {projectlist.map((project, key) => {
+                return (
+                    <Projects project={project} key={key} />
+                )
+            })}
 
-</div>
-    </div>      
+        </div>
+    </div>
     )
 }
 export default Projectsmaster;
