@@ -1,10 +1,28 @@
 import React from "react";
+import projectlist from "./projectslist";
 
 function Projects(props) {
   console.log(props)
   return (<div>
     <div className="card bg-info text-white" >
-      <img src="./../assets/team.jpg" className="card-img-top" alt={props.project.title} />
+      <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active"><img src={require("../assets/password.jpg")} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src= {require("../assets/planner.jpg")} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src= {require("../assets/quiz.jpg")} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src= {require("../assets/team.jpg")} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={require("../assets/weather.jpg")} className="d-block w-100 h-100" alt="..." />
+          </div>
+        </div>
+      </div>
       <div className="card-body">
         <h5 className="card-title">{props.project.title}</h5>
         <p className="card-text">{props.project.description}</p>
