@@ -7,19 +7,19 @@ function Projects(props) {
     <div className="card bg-info text-white" >
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active"><img src={require("../assets/password.jpg")} className="d-block w-100" alt="..." />
+          <div className="carousel-item active"><img src={require("../assets/password.png")} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src= {require("../assets/planner.jpg")} className="d-block w-100" alt="..." />
+            <img src= {require("../assets/planner.png")} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src= {require("../assets/quiz.jpg")} className="d-block w-100" alt="..." />
+            <img src= {require("../assets/quiz.png")} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
             <img src= {require("../assets/team.jpg")} className="d-block w-100" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={require("../assets/weather.jpg")} className="d-block w-100 h-100" alt="..." />
+            <img src={require("../assets/weather.png")} className="d-block w-100 h-100" alt="..." />
           </div>
         </div>
       </div>
