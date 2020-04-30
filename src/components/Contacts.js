@@ -8,7 +8,7 @@ function Contacts() {
             <br />
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Vavarooks"><i className="fa fa-github fa-1x"></i> Github</a>
             <br />
-            <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/vanessa-emerick"><i className="fa fa-linkedin fa-1x"></i> Linkedin</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vanessa-emerick/"><i className="fa fa-linkedin fa-1x"></i> Linkedin</a>
         </div>
     </div>
     )
